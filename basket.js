@@ -66,6 +66,9 @@ window.addEventListener('load', () => {
     showBasket(basket)
 })
 
+if(basket.length===0){
+    clearAll.style.display='none'
+}
 
 clearAll.addEventListener('click',()=>{
     basket.splice(0,basket.length)
