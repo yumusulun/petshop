@@ -476,21 +476,30 @@ nav {
     gap: 19px;
 }
 
-.child_card_design {
+.child_card_design , .child_favcard_design{
     border-radius: 6px;
     border: 1px solid rgba(150, 141, 141, 0.40);
     box-shadow: 0px 0px 9px 0px rgba(69, 69, 69, 0.25);
 
 }
 
-/* .card_design_container{
-    /* background-color: red; */
+
 
 .child_card_design p {
     text-align: center;
 }
 
+.child_favcard_design_inner img{
 
+height: 250;
+width: 100%;
+
+
+}
+
+.child_favcard_design_inner{
+    min-width: 270px;
+}
 
 .child_card_design_inner img {
     height: 300px;
