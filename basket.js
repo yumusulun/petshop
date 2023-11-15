@@ -32,10 +32,13 @@ function showBasket(basket) {
             <img src="${x.image}"
                 alt="">
         </div>
-        <p>count: ${x.count}</p>
-        <p>${x.name} <span> ${x.price * x.count} man</span></p>
-        <button onclick="addButton(${x.id})" >+</button>
-        <button onclick="deleteButton(${x.id})">-</button>
+        <p>say: ${x.count}</p>
+        <p>${x.name}</p> 
+        <p> ${x.price * x.count} man</p>
+        <div class="buttons_class">
+        <button class="plus_btn" onclick="addButton(${x.id})" >+</button>
+        <button class="minus_btn" onclick="deleteButton(${x.id})">-</button>
+        </div>
     </div>
     `
     })

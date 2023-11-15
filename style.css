@@ -100,10 +100,12 @@ select {
     outline: none;
     appearance: auto;
 }
-select option{
+
+select option {
     color: var(--black);
-    
+
 }
+
 .nav_list {
     display: flex;
     justify-content: space-between;
@@ -118,8 +120,9 @@ select option{
     font-weight: 300;
 
 }
+
 .bars_icon,
-.close_icon{
+.close_icon {
     display: none;
 }
 
@@ -284,9 +287,11 @@ nav {
 
 
 }
-.first_card img{
+
+.first_card img {
     width: 100%;
 }
+
 .first_inner_card {
     position: relative;
     background: rgba(9, 9, 9, 0.16);
@@ -471,6 +476,22 @@ nav {
     gap: 19px;
 }
 
+.child_card_design {
+    border-radius: 6px;
+    border: 1px solid rgba(150, 141, 141, 0.40);
+    box-shadow: 0px 0px 9px 0px rgba(69, 69, 69, 0.25);
+
+}
+
+/* .card_design_container{
+    /* background-color: red; */
+
+.child_card_design p {
+    text-align: center;
+}
+
+
+
 .child_card_design_inner img {
     height: 300px;
     width: 100%;
@@ -488,6 +509,15 @@ nav {
 
 
 }
+
+.basket_h2,
+.fav_h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #486AA6;
+}
+
 
 .btns_container .active_btn {
     background-color: var(--blue);
@@ -525,7 +555,7 @@ nav {
 
 .our_services_grid_container {
     background: url(./images/pet-accessories-still-life-concept-with-grooming-objects-food\ 1.png);
-    
+
     /* justify-content: space-between; */
     height: 250px;
     background-repeat: no-repeat;
@@ -534,7 +564,8 @@ nav {
     width: 100%;
     /* background-color: lime; */
 }
-.our_services_child_container{
+
+.our_services_child_container {
     display: flex;
     align-items: center;
     height: 100%;
@@ -542,6 +573,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
+
 .slider_second_card {
     overflow-x: hidden;
     border-radius: 10px;
@@ -575,9 +607,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
 }
-.brands_parent_container{
+
+.brands_parent_container {
     border-bottom: 1px solid #fff;
 }
 
@@ -595,7 +628,7 @@ footer {
 }
 
 .three_buttons li a {
-    
+
     color: var(--black);
     font-size: 1.4rem;
     font-weight: 400;
@@ -633,6 +666,41 @@ footer {
     background-color: var(--black);
 }
 
-.heart_icon{
+.heart_icon {
     color: red;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.plus_btn,
+.minus_btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+
+}
+
+.buttons_class {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.clear_all {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    padding: 18px 28px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
 }
