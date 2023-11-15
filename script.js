@@ -5,6 +5,9 @@ let basketIcon=document.querySelector('.basket_icon')
 let buttons=document.querySelectorAll('.btns_container button');
 let buttonsParent=document.querySelector('.btns_container');
 let favIcon=document.querySelector('.fav_icon');
+let barsIcon=document.querySelector('.bars_icon');
+let closeIcon=document.querySelector('.close_icon');
+let navList=document.querySelector('.nav_list')
 
 let sliderSecondContainer = document.querySelector('.slider_second_container')
 let leftSvgIcon=document.querySelector('.left_svg_icon')
@@ -267,3 +270,13 @@ function addToFav(x, button) {
 
 // // Səhifə yükləndikdə ikonları güncəllə
 // updateFavIcons();
+
+
+barsIcon.addEventListener('click',()=>{
+    navList.classList.add('nav_active')
+})
+
+
+closeIcon.addEventListener('click',()=>{
+    navList.classList.remove('nav_active')
+})
