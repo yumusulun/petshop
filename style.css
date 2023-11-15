@@ -98,8 +98,12 @@ select {
     background: none;
     border: none;
     outline: none;
+    appearance: auto;
 }
-
+select option{
+    color: var(--black);
+    
+}
 .nav_list {
     display: flex;
     justify-content: space-between;
