@@ -4,6 +4,7 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+  
 
     .header_icons_container {
         gap: 12px;
@@ -147,7 +148,19 @@
         font-size: 1.5rem;
     }
 }
+@media screen and (max-width:550px){
 
+    .card_design_container {
+        margin-left: 70px;
+        margin-right: 70px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    
+    
+    }
+    .child_favcard_design_inner{
+        min-width: 200px;
+    }
+}
 @media screen and (max-width:530px) {
 
     

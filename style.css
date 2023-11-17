@@ -489,16 +489,16 @@ nav {
     text-align: center;
 }
 
-.child_favcard_design_inner img{
+.child_favcard_design img{
 
-height: 250;
+height: 250px;
 width: 100%;
 
 
 }
 
 .child_favcard_design_inner{
-    min-width: 270px;
+    min-width: 250px;
 }
 
 .child_card_design_inner img {
@@ -677,7 +677,7 @@ footer {
 
 .heart_icon {
     color: red;
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
